@@ -1,0 +1,62 @@
+/* Index.html */
+#principal{
+    border: 2px solid rgb(154, 52, 221);
+    background-color: rgb(160, 233, 233);
+    height: 500px;
+}
+
+.conteudo{
+    background-color: rgb(235, 137, 230);
+    border: 1px solid gray;
+    width: 150px;
+    height: 250px;
+    margin: 10px;
+    float: right;
+    margin-top: 100px;
+    
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* index.html */
+
+
+
+
+
+
+
+body{
+    background-color: #c4c4c4;
+}
+
+/* index_pratica.html */
+#principal_pratica{
+    width: 920px;
+}
+
+.noticia{
+    background: #727272;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.imagem{
+   background-color: white;
+   width: 265px;
+   padding: 5px;
+   margin: 15px;
+   float: left;
+}
+/* index_pratica.html */
+
+
