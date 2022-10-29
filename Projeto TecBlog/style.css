@@ -5,19 +5,8 @@
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    padding: 5px;
-    color: white;
-}
-
-/*
-*** Layout ***
-*/
-
-
 #cabecalho{
-    background: rgb(255, 199, 96);
+    background: rgb(207, 146, 13);
     padding: 15px;
     text-align: center;
 }
@@ -27,13 +16,103 @@ a{
     font-size: 40px;
 }
 
+#principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagem, #area-lateral{
+    background-color: white;
+}
+
+#area-postagem{
+   width: 660px;
+   float: left; 
+}
+
+#area-lateral{
+   width: 240px;
+   float: right; 
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: gray;
+}
+
+/*
+*** Layout ***
+*/
+
+a{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+}
+
 a:hover{
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(255, 255, 255);
+    color: orange;
     border-radius: 5px;
 }
 
 .blog{
     color: white;
 }
+
+.titulo{
+    padding: 15px;
+}
+
+.titulo h1{
+    font-size: 23px;
+    color: rgb(226, 172, 55);
+}
+
+.imagem{
+    padding: 15px;
+}
+
+.descricao{
+    padding: 15px;
+}
+
+.conteudo{
+    padding-top: 15px;
+}
+
+.conteudo h1{
+    background: rgb(192, 192, 192);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.conteudo p, h2{
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.conteudo h2{
+    color: rgb(226, 172, 55);
+}
+
+.categorias{
+    padding-top: 30px;
+}
+
+.categorias h1{
+    background: rgb(192, 192, 192);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.categorias p{
+    color: rgb(226, 172, 55);
+    padding-top: 3px;
+} 
+
+
 
 
