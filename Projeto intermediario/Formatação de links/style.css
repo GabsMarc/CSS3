@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Cor dos links que não foram visitados */
+a:link{
+  color: rgb(43, 226, 89);
+}
+
+/* O nome é auto explicativo */
+a:visited{
+  color: rgb(43, 214, 226);
+}
+
+/* Altera a cor ao passar com o mouse em cima */
+a:hover{
+  color: rgb(226, 43, 202);
+  background-color: brown;
+}
+
+/* Ao clicar e segurar em cima do link, ele recebe essa cor */
+a:active{
+  color: rgb(0, 0, 0);
+}
